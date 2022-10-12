@@ -1,0 +1,34 @@
+.main {
+  display: inline-flex;
+  margin-right: -50px;
+}
+.bar {
+  margin-left: -40px;
+}
+.avatar {
+  z-index: 1;
+}
+.main-2 {
+  display: inline-flex;
+  margin-left: -20px;
+}
+.main-3 {
+  display: inline-flex;
+  margin-left: -20px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+
+.status-completed {
+  background: #8000ff;
+  background-color: #8000ff;
+}
+
+.status-notcompleted {
+  background: white;
+  outline: #8000ff;
+}

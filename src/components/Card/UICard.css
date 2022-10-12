@@ -1,0 +1,33 @@
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+.main {
+  display: inline-flex;
+  float: left;
+}
+.bar {
+  margin-left: -12px;
+}
+.main-2 {
+  display: inline-flex;
+  margin-left: -35px;
+}
+
+.btn-custom {
+  background: #8000ff;
+  justify-content: center;
+  border-radius: 5px;
+  border: #8000ff;
+  width: 410px;
+  height: 30px;
+  align-items: center;
+  color: white;
+}
+
+.btn-card{
+    border: 1px border #8000ff;
+    cursor: pointer;
+}
