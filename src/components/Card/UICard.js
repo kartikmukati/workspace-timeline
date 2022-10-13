@@ -36,9 +36,9 @@ const UICard = (props) => {
           return (
             <>
               <label for="basic-url" className="form-label">
-                {form.label}
+                {form.label} <label class="form-text">{form.text}</label>
               </label>
-              <label class="form-text">{form.text}</label>
+              
               <div className="input-group mb-3">
                 <span className="input-group-text text-muted" id="basic-addon3">
                   www.eden.com/
@@ -71,7 +71,6 @@ const UICard = (props) => {
         }
       })}
       {props.buttonTitle !== "Launch Eden" ? (
-        
         <button
           type="submit"
           style={{ background: "#8000ff", border: "1px solid #8000ff" }}
