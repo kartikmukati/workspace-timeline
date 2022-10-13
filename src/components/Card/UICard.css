@@ -27,7 +27,12 @@
   color: white;
 }
 
-.btn-card{
-    border: 1px border #8000ff;
+.card{
+    border: 5px border #8000ff;
     cursor: pointer;
-}
+} 
+
+.card:hover{
+  border: 1px border #8000ff;
+  outline: blue;
+} 
