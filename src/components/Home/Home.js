@@ -107,11 +107,13 @@ const Home = () => {
 
   return (
     <div className="container">
+      {/* Header */}
       <div className="row text-center mt-5">
         <div className="col-xl-4 offset-xl-4 text-center">
           <h1>Eden</h1>
         </div>
       </div>
+      {/* Timeline */}
       <div className="row mt-3 text-center">
         <div className="col-xl-7 offset-xl-3 col-lg-7 offset-lg-3 col-md-7 offset-md-3 text-center">
           <div className="col-3 offset-1 main">
@@ -191,6 +193,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* Congratulation */}
       <div className="row mt-2">
         {currentStatus == 4 ? (
           <Card
@@ -218,8 +221,10 @@ const Home = () => {
               {"Launch Eden"}
             </button>
           ) : null}
-        
       </div>
+
+      {/* Cards */}
+
       <div className="row mt-2">
         <div className="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-6 offset-md-3">
           {currentStatus == 1 ? (
