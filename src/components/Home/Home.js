@@ -113,7 +113,7 @@ const Home = () => {
         </div>
       </div>
       <div className="row mt-3 text-center">
-        <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-8 offset-md-2 text-center">
+        <div className="col-xl-7 offset-xl-3 col-lg-7 offset-lg-3 col-md-7 offset-md-3 text-center">
           <div className="col-3 offset-1 main">
             <Avatar
               className="avatar"
